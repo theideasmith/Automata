@@ -1,0 +1,32 @@
+{   
+    "run":[
+        {
+            "type":"import",
+            "import":{
+                "file":"path/to/file.json"
+            }
+        
+        },
+        {
+            "type":"visit",
+            "visit":{
+                "url":"www.example.com"
+            }
+        },
+        {
+            "type":"login",
+            "login":{ 
+                "uuid":"some_random_id",
+                "#username":"batman_the_fatman",
+                "#password":"123456"
+            }
+        },
+        {
+            "type": "collect",
+            "collect":{
+                ".points":"Points"
+            }
+        }
+
+    ]
+}

@@ -1,0 +1,69 @@
+[2015-08-04 22:40:53.418] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'file:///Users/akivalipshitz/Developer/Code/Automata/test.html',
+  river: 
+   [ { flags: [Object], enter: [Object] },
+     { collect: [Object] },
+     { sleep: 20000 } ] }
+[2015-08-04 22:40:53.542] [INFO] river - AutoBrowser@run  [ { visit: 'file:///Users/akivalipshitz/Developer/Code/Automata/test.html' },
+  { flags: [ 'humanlike' ], enter: { html: 'data/liberty.txt' } },
+  { collect: { body: 'HTML' } },
+  { sleep: 20000 } ]
+[2015-08-04 22:40:53.545] [INFO] river - Command of type:  visit
+[2015-08-04 22:40:53.545] [INFO] river - AutoBrowser@visit visiting file:///Users/akivalipshitz/Developer/Code/Automata/test.html
+[2015-08-04 22:40:55.882] [INFO] river - Command of type:  enter
+[2015-08-04 22:40:55.883] [INFO] river - AutoBrowser@_writeFieldsHumanlike writing fields:  { html: 'data/liberty.txt' }
+[2015-08-04 22:40:55.945] [INFO] river - AutoBrowser@_ifElementPresent found element:  html
+[2015-08-04 22:40:55.956] [INFO] river - AutoBrowser@sendKeysWithDelay given letters:  data/liberty.txt
+[2015-08-04 22:40:55.957] [INFO] river - Am-Helper#tryLoadingStringAsFile passed string:  data/liberty.txt  $PWD is /Users/akivalipshitz/Developer/Code/Automata
+[2015-08-04 22:40:55.958] [INFO] river - AutoHelper#tryLoadingStringAsFile captured file:  When in the Course of human events, it becomes necessary for one people
+to dissolve the political bands which have connected them with another,
+and to assume among the powers of the earth, the separate and equal
+station to which the Laws of Nature and of Nature's God entitle them,
+a decent respect to the opinions of mankind requires that they should
+declare the causes which impel them to the separation.
+
+[2015-08-04 22:40:55.959] [INFO] river - AutoBrowser@sendKeysWithDelay loaded  data/liberty.txt as  When in the Course of human events, it becomes necessary for one people
+to dissolve the political bands which have connected them with another,
+and to assume among the powers of the earth, the separate and equal
+station to which the Laws of Nature and of Nature's God entitle them,
+a decent respect to the opinions of mankind requires that they should
+declare the causes which impel them to the separation.
+
+[2015-08-04 22:40:56.086] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  W
+[2015-08-04 22:40:56.130] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  h
+[2015-08-04 22:40:56.179] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  e
+[2015-08-04 22:40:56.228] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  n
+[2015-08-04 22:40:56.269] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter   
+[2015-08-04 22:40:56.317] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  i
+[2015-08-04 22:40:56.366] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  n
+[2015-08-04 22:40:56.428] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter   
+[2015-08-04 22:40:56.469] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  t
+[2015-08-04 22:40:56.514] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  h
+[2015-08-04 22:40:56.566] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  e
+[2015-08-04 22:40:56.614] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter   
+[2015-08-04 22:40:56.656] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  C
+[2015-08-04 22:40:56.697] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  o
+[2015-08-04 22:40:56.732] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  u
+[2015-08-04 22:40:56.775] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  r
+[2015-08-04 22:40:56.842] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  s
+[2015-08-04 22:40:56.881] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  e
+[2015-08-04 22:40:56.923] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter   
+[2015-08-04 22:40:56.963] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  o
+[2015-08-04 22:40:57.010] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  f
+[2015-08-04 22:40:57.054] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter   
+[2015-08-04 22:40:57.094] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  h
+[2015-08-04 22:40:57.137] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  u
+[2015-08-04 22:40:57.176] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  m
+[2015-08-04 22:40:57.226] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  a
+[2015-08-04 22:40:57.264] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  n
+[2015-08-04 22:40:57.299] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter   
+[2015-08-04 22:40:57.341] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  e
+[2015-08-04 22:40:57.382] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  v
+[2015-08-04 22:40:57.415] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  e
+[2015-08-04 22:40:57.447] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  n
+[2015-08-04 22:40:57.480] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  t
+[2015-08-04 22:40:57.516] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  s
+[2015-08-04 22:40:57.562] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  ,
+[2015-08-04 22:40:57.603] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter   
+[2015-08-04 22:40:57.658] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  i
