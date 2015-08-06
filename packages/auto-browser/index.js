@@ -8,16 +8,16 @@ var AutoBrowser = require('./auto-browser');
  * the AutoBrowser plugin.
  */
 
-function theInterface(automata){
-    automata.makeSet(
+function theInterface(set){
+    packager.newPackage(
         {
             'name': 'AutoBrowser'
 
         }, function(set){
 
-        set.block.begins('init', function(){
+        set.begins('init', function(){
 
-        })
+        });
 
         set.block('visit', function(block){
             block.takes.url();
@@ -26,9 +26,7 @@ function theInterface(automata){
 
         set.block('collect', function(block){
             block.takes(
-                automata
-                .array
-                .contains(automata.string)
+                automata.array.contains(automata.string)
             );
         });
 
@@ -59,8 +57,8 @@ function theInterface(automata){
  * the functions declared by "declare"
  *
  */
-function theImplementation(automata){
-
+function theImplementation(autobrowser){
+    autobrowser('')
 }
 
 module.exports = {
