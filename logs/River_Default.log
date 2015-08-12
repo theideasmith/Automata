@@ -67,3 +67,240 @@ declare the causes which impel them to the separation.
 [2015-08-04 22:40:57.562] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  ,
 [2015-08-04 22:40:57.603] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter   
 [2015-08-04 22:40:57.658] [INFO] river - AutoBrowser@_sendKeysWithDelay sent letter  i
+[2015-08-10 19:17:08.129] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collect: '#box' } ] }
+[2015-08-10 19:17:13.130] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collect: '#box' } ]
+[2015-08-10 19:17:13.133] [INFO] river - Command of type:  visit
+[2015-08-10 19:17:13.134] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:17:22.092] [INFO] river - Command of type:  collect
+[2015-08-10 19:17:22.093] [INFO] river - AutoBrowser@collect gotten tags:  [ { selector: '0', columnName: '#' },
+  { selector: '1', columnName: 'b' },
+  { selector: '2', columnName: 'o' },
+  { selector: '3', columnName: 'x' } ]
+[2015-08-10 19:17:22.319] [ERROR] river - { [InvalidSelectorError: The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified]
+  code: 32,
+  state: 'invalid selector',
+  message: 'The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:\nInvalidSelectorError: An invalid or illegal selector was specified',
+  name: 'InvalidSelectorError',
+  stack: 'InvalidSelectorError: The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:\nInvalidSelectorError: An invalid or illegal selector was specified\n    at new bot.Error (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/error.js:108:18)\n    at Object.bot.response.checkResponse (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/response.js:109:9)\n    at /Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:379:20\n    at promise.ControlFlow.runInFrame_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)\n    at goog.defineClass.notify (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2448:25)\n    at promise.Promise.notify_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:564:12)\n    at Array.forEach (native)\n    at promise.Promise.notifyAll_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:553:15)\n    at goog.async.run.processWorkQueue (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/async/run.js:125:21)\n    at process._tickDomainCallback (node.js:399:9)' }
+InvalidSelectorError: The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+    at new bot.Error (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/error.js:108:18)
+    at Object.bot.response.checkResponse (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/response.js:109:9)
+    at /Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:379:20
+    at promise.ControlFlow.runInFrame_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)
+    at goog.defineClass.notify (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2448:25)
+    at promise.Promise.notify_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:564:12)
+    at Array.forEach (native)
+    at promise.Promise.notifyAll_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:553:15)
+    at goog.async.run.processWorkQueue (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/async/run.js:125:21)
+    at process._tickDomainCallback (node.js:399:9)
+[2015-08-10 19:17:44.451] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collect: '.box' } ] }
+[2015-08-10 19:17:44.691] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collect: '.box' } ]
+[2015-08-10 19:17:44.692] [INFO] river - Command of type:  visit
+[2015-08-10 19:17:44.693] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:17:50.629] [INFO] river - Command of type:  collect
+[2015-08-10 19:17:50.631] [INFO] river - AutoBrowser@collect gotten tags:  [ { selector: '0', columnName: '.' },
+  { selector: '1', columnName: 'b' },
+  { selector: '2', columnName: 'o' },
+  { selector: '3', columnName: 'x' } ]
+[2015-08-10 19:17:50.753] [ERROR] river - { [InvalidSelectorError: The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified]
+  code: 32,
+  state: 'invalid selector',
+  message: 'The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:\nInvalidSelectorError: An invalid or illegal selector was specified',
+  name: 'InvalidSelectorError',
+  stack: 'InvalidSelectorError: The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:\nInvalidSelectorError: An invalid or illegal selector was specified\n    at new bot.Error (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/error.js:108:18)\n    at Object.bot.response.checkResponse (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/response.js:109:9)\n    at /Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:379:20\n    at promise.ControlFlow.runInFrame_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)\n    at goog.defineClass.notify (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2448:25)\n    at promise.Promise.notify_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:564:12)\n    at Array.forEach (native)\n    at promise.Promise.notifyAll_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:553:15)\n    at goog.async.run.processWorkQueue (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/async/run.js:125:21)\n    at process._tickDomainCallback (node.js:399:9)' }
+InvalidSelectorError: The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+    at new bot.Error (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/error.js:108:18)
+    at Object.bot.response.checkResponse (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/response.js:109:9)
+    at /Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:379:20
+    at promise.ControlFlow.runInFrame_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)
+    at goog.defineClass.notify (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2448:25)
+    at promise.Promise.notify_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:564:12)
+    at Array.forEach (native)
+    at promise.Promise.notifyAll_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:553:15)
+    at goog.async.run.processWorkQueue (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/async/run.js:125:21)
+    at process._tickDomainCallback (node.js:399:9)
+[2015-08-10 19:19:40.338] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collect: '.box' } ] }
+[2015-08-10 19:19:40.575] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collect: '.box' } ]
+[2015-08-10 19:19:40.577] [INFO] river - Command of type:  visit
+[2015-08-10 19:19:40.577] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:19:45.012] [INFO] river - Command of type:  collect
+[2015-08-10 19:19:45.012] [INFO] river - AutoBrowser@collect gotten tags:  []
+[2015-08-10 19:19:45.013] [INFO] river - AutoBrowser@collectNextAndBuild collected:  {}
+[2015-08-10 19:20:53.410] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collect: '.box' } ] }
+[2015-08-10 19:20:53.646] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collect: '.box' } ]
+[2015-08-10 19:20:53.648] [INFO] river - Command of type:  visit
+[2015-08-10 19:20:53.649] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:21:01.388] [INFO] river - Command of type:  collect
+[2015-08-10 19:21:01.389] [INFO] river - AutoBrowser@collect gotten tags:  []
+[2015-08-10 19:21:01.389] [INFO] river - AutoBrowser@collectNextAndBuild collected:  {}
+[2015-08-10 19:21:07.509] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collect: '#box' } ] }
+[2015-08-10 19:21:07.730] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collect: '#box' } ]
+[2015-08-10 19:21:07.731] [INFO] river - Command of type:  visit
+[2015-08-10 19:21:07.732] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:21:12.774] [INFO] river - Command of type:  collect
+[2015-08-10 19:21:12.775] [INFO] river - AutoBrowser@collect gotten tags:  []
+[2015-08-10 19:21:12.775] [INFO] river - AutoBrowser@collectNextAndBuild collected:  {}
+[2015-08-10 19:21:41.625] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collect: '#box' } ] }
+[2015-08-10 19:21:41.758] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collect: '#box' } ]
+[2015-08-10 19:21:41.759] [INFO] river - Command of type:  visit
+[2015-08-10 19:21:41.760] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:21:48.579] [INFO] river - Command of type:  collect
+[2015-08-10 19:21:48.580] [INFO] river - AutoBrowser@collect gotten tags:  []
+[2015-08-10 19:21:48.581] [INFO] river - AutoBrowser@collectNextAndBuild collected:  {}
+[2015-08-10 19:22:17.795] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collect: '#box' } ] }
+[2015-08-10 19:22:17.922] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collect: '#box' } ]
+[2015-08-10 19:22:17.924] [INFO] river - Command of type:  visit
+[2015-08-10 19:22:17.924] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:22:22.858] [INFO] river - Command of type:  collect
+[2015-08-10 19:22:22.859] [INFO] river - Fields:  undefined
+[2015-08-10 19:22:22.860] [INFO] river - AutoBrowser@collect gotten tags:  []
+[2015-08-10 19:22:22.861] [INFO] river - AutoBrowser@collectNextAndBuild collected:  {}
+[2015-08-10 19:22:55.442] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collect: '#box' } ] }
+[2015-08-10 19:22:55.562] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collect: '#box' } ]
+[2015-08-10 19:22:55.564] [INFO] river - Command of type:  visit
+[2015-08-10 19:22:55.565] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:23:03.581] [INFO] river - Command of type:  collect
+[2015-08-10 19:23:03.582] [INFO] river - Fields:  #box
+[2015-08-10 19:23:03.583] [INFO] river - AutoBrowser@collect gotten tags:  [ { selector: '0', columnName: '#' },
+  { selector: '1', columnName: 'b' },
+  { selector: '2', columnName: 'o' },
+  { selector: '3', columnName: 'x' } ]
+[2015-08-10 19:23:03.707] [ERROR] river - { [InvalidSelectorError: The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified]
+  code: 32,
+  state: 'invalid selector',
+  message: 'The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:\nInvalidSelectorError: An invalid or illegal selector was specified',
+  name: 'InvalidSelectorError',
+  stack: 'InvalidSelectorError: The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:\nInvalidSelectorError: An invalid or illegal selector was specified\n    at new bot.Error (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/error.js:108:18)\n    at Object.bot.response.checkResponse (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/response.js:109:9)\n    at /Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:379:20\n    at promise.ControlFlow.runInFrame_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)\n    at goog.defineClass.notify (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2448:25)\n    at promise.Promise.notify_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:564:12)\n    at Array.forEach (native)\n    at promise.Promise.notifyAll_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:553:15)\n    at goog.async.run.processWorkQueue (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/async/run.js:125:21)\n    at process._tickCallback (node.js:356:9)' }
+InvalidSelectorError: The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+    at new bot.Error (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/error.js:108:18)
+    at Object.bot.response.checkResponse (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/response.js:109:9)
+    at /Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:379:20
+    at promise.ControlFlow.runInFrame_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)
+    at goog.defineClass.notify (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2448:25)
+    at promise.Promise.notify_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:564:12)
+    at Array.forEach (native)
+    at promise.Promise.notifyAll_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:553:15)
+    at goog.async.run.processWorkQueue (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/async/run.js:125:21)
+    at process._tickCallback (node.js:356:9)
+[2015-08-10 19:23:25.791] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collect: '#box' } ] }
+[2015-08-10 19:23:25.922] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collect: '#box' } ]
+[2015-08-10 19:23:25.924] [INFO] river - Command of type:  visit
+[2015-08-10 19:23:25.924] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:23:33.707] [INFO] river - Command of type:  collect
+[2015-08-10 19:23:33.707] [INFO] river - Fields:  #box
+[2015-08-10 19:23:33.708] [INFO] river - AutoBrowser@collect gotten tags:  [ { selector: '0', columnName: '#' },
+  { selector: '1', columnName: 'b' },
+  { selector: '2', columnName: 'o' },
+  { selector: '3', columnName: 'x' } ]
+[2015-08-10 19:23:33.936] [ERROR] river - { [InvalidSelectorError: The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified]
+  code: 32,
+  state: 'invalid selector',
+  message: 'The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:\nInvalidSelectorError: An invalid or illegal selector was specified',
+  name: 'InvalidSelectorError',
+  stack: 'InvalidSelectorError: The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:\nInvalidSelectorError: An invalid or illegal selector was specified\n    at new bot.Error (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/error.js:108:18)\n    at Object.bot.response.checkResponse (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/response.js:109:9)\n    at /Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:379:20\n    at promise.ControlFlow.runInFrame_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)\n    at goog.defineClass.notify (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2448:25)\n    at promise.Promise.notify_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:564:12)\n    at Array.forEach (native)\n    at promise.Promise.notifyAll_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:553:15)\n    at goog.async.run.processWorkQueue (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/async/run.js:125:21)\n    at process._tickCallback (node.js:356:9)' }
+InvalidSelectorError: The given selector 0 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+    at new bot.Error (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/error.js:108:18)
+    at Object.bot.response.checkResponse (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/atoms/response.js:109:9)
+    at /Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:379:20
+    at promise.ControlFlow.runInFrame_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)
+    at goog.defineClass.notify (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2448:25)
+    at promise.Promise.notify_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:564:12)
+    at Array.forEach (native)
+    at promise.Promise.notifyAll_ (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:553:15)
+    at goog.async.run.processWorkQueue (/Users/akivalipshitz/Developer/Code/Automata/Core/node_modules/selenium-webdriver/lib/goog/async/run.js:125:21)
+    at process._tickCallback (node.js:356:9)
+[2015-08-10 19:24:14.024] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collect: [Object] } ] }
+[2015-08-10 19:24:14.154] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collect: { '#box': 'Box' } } ]
+[2015-08-10 19:24:14.157] [INFO] river - Command of type:  visit
+[2015-08-10 19:24:14.157] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:24:18.510] [INFO] river - Command of type:  collect
+[2015-08-10 19:24:18.511] [INFO] river - Fields:  { '#box': 'Box' }
+[2015-08-10 19:24:18.512] [INFO] river - AutoBrowser@collect gotten tags:  [ { selector: '#box', columnName: 'Box' } ]
+[2015-08-10 19:25:04.366] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collect: [Object] } ] }
+[2015-08-10 19:25:04.493] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collect: { '.box': 'Box' } } ]
+[2015-08-10 19:25:04.496] [INFO] river - Command of type:  visit
+[2015-08-10 19:25:04.497] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:25:15.047] [INFO] river - Command of type:  collect
+[2015-08-10 19:25:15.047] [INFO] river - Fields:  { '.box': 'Box' }
+[2015-08-10 19:25:15.048] [INFO] river - AutoBrowser@collect gotten tags:  [ { selector: '.box', columnName: 'Box' } ]
+[2015-08-10 19:25:15.330] [INFO] river - AutoBrowser@_ifElementPresent found element:  .box
+[2015-08-10 19:25:15.432] [INFO] river - AutoBrowser@collect finished capturing innerHtmls
+[2015-08-10 19:25:15.433] [INFO] river - AutoBrowser@collectNextAndBuild collected:  { Box: [ 'theideasmith published yesterday\n2.0.0 is the latest of 11 releases\ngithub.com/theideasmith/plasmidjs\nMIT license' ] }
+[2015-08-10 19:25:29.451] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collectInnerHtml: [Object] } ] }
+[2015-08-10 19:25:29.707] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collectInnerHtml: { '.box': 'Box' } } ]
+[2015-08-10 19:25:29.709] [INFO] river - Command of type:  visit
+[2015-08-10 19:25:29.710] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:25:34.473] [ERROR] river - AutoHelper ERROR: Command
+ { collectInnerHtml: { '.box': 'Box' } } 
+Is not of a valid type. Valid commands are:
+ visit,river,submit,enter,collect,sleep,quit
+[2015-08-10 19:25:52.675] [INFO] river - AutoBrowser with options:  {} 
+ and sequence:
+ { url: 'http://npmjs.com/package/plasmidjs',
+  river: [ { collectInnerHtml: [Object] } ] }
+[2015-08-10 19:25:52.798] [INFO] river - AutoBrowser@run  [ { visit: 'http://npmjs.com/package/plasmidjs' },
+  { collectInnerHtml: { '.box': 'Box' } } ]
+[2015-08-10 19:25:52.801] [INFO] river - Command of type:  visit
+[2015-08-10 19:25:52.802] [INFO] river - AutoBrowser@visit visiting http://npmjs.com/package/plasmidjs
+[2015-08-10 19:25:58.582] [INFO] river - Command of type:  collectInnerHtml
+[2015-08-10 19:25:58.582] [INFO] river - Fields:  { '.box': 'Box' }
+[2015-08-10 19:25:58.583] [INFO] river - AutoBrowser@collect gotten tags:  [ { selector: '.box', columnName: 'Box' } ]
+[2015-08-10 19:25:58.861] [INFO] river - AutoBrowser@_ifElementPresent found element:  .box
+[2015-08-10 19:25:58.883] [INFO] river - AutoBrowser@collect finished capturing innerHtmls
+[2015-08-10 19:25:58.883] [INFO] river - AutoBrowser@collectNextAndBuild collected:  { Box: [ '\n\n      <li class="last-publisher">\n        <a href="/~theideasmith">\n          <img src="https://s.gravatar.com/avatar/2b5410b2b64c8e6d06ed157e945735a9?size=100&amp;default=retro" alt="theideasmith">\n          <span>theideasmith</span>\n        </a>\n          published\n          <span data-date="2015-08-09T13:37:53.838Z" data-date-format="relative">yesterday</span>\n      </li>\n\n    <li>\n      <strong>2.0.0</strong>\n      is the latest\n        of 11 releases\n    </li>\n\n      <li>\n        <a href="http://www.github.com/theideasmith/plasmidjs">github.com/theideasmith/plasmidjs</a>\n      </li>\n\n\n      <li>\n          <a href="http://opensource.org/licenses/MIT">MIT</a>\n        <span> license</span>\n      </li>\n\n  ' ] }

@@ -119,6 +119,8 @@ AutoBrowser.validCommands = [
     //Tries to bypass capthces
     'enter',
     'collect', //Collect data from the webpage
+    'collectText',
+    'collectInnerHtml',
     'sleep', //Wait for x milliseconds
     'quit'
 
@@ -591,10 +593,14 @@ AutoBrowser.prototype = {
      */
     _collect: function(fields, webdriverCollector) {
         var self = this
+        logger.log("Fields: ", fields)
         return new Promise(function(fulfill, reject){
-            var collection = fields.collect;
-            var keys = _.keys(collection);
+            var collection = fields;
+            var keys = Object.keys(collection)
+            console.log("Collecting keys: ", keys)
             var tags = keys.map(function(key){
+              console.log("Collecting: ", key)
+
                 var value = collection[key];
                 return {
                     selector: key,
@@ -612,19 +618,21 @@ AutoBrowser.prototype = {
     },
 
     collectText: function(fields){
-        var res =  this._collect(fields, elemGetText);
+        var res =  this._collect(fields.collectText, elemGetText);
         this.emit("collect", res);
         return res;
     },
 
     collectInnerHtml: function(fields){
-        var res = this._collect(fields, elemGetInnerHtml);
+        var res = this._collect(fields.collectInnerHtml, elemGetInnerHtml);
         this.emit("collect", res);
         return res;
     },
 
     collect: function(fields){
-        return this.collectText(fields);
+      var res =  this._collect(fields.collect, elemGetText);
+      this.emit("collect", res);
+      return res;
     }
 
 };
