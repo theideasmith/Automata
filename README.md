@@ -1,5 +1,7 @@
 
 # Automata
+### Software will never be the same again
+
 Design, build, and run powerful workflows to automate repetitive tasks, still in its nascent stages
 
 ##Legoized Software For Humans and Developers
